@@ -19,9 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.losemind.www.model.User;
 import com.losemind.www.service.UserService;
 
-/**
- * Handles requests for the application home page.
- */
+
 @Controller
 @RequestMapping("/users")
 public class UserController {
