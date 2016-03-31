@@ -31,7 +31,7 @@ public class User {
 	
 	@Field
 	@Size(min = 2, max = 25, message = "Name must be at least 2 characters long")
-	@Pattern(regexp = "\\w+", message = "Name must consist only of letter, numbers and underline symbol")
+	@Pattern(regexp = "[a-zA-zа-яА-я_]+", message = "Name must consist only of letter, numbers and underline symbol")
 	private String name;
 	
 	@Field
